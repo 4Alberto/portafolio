@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js" integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="jsscript" href="scripts.JS">
+    <title>Portafolio</title>
+</head>
+<body>
+    <!--seccion inicio-->
+    <span class="sombra">
+    <section id="inicio" class="inicio">
+        <div class="contenido">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-cat"></i>
+                    <h1>Alberto</h1>
+                </div>
+                <nav id="nav" class="responsive">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#servicios">Servicios</a>
+                    <a href="#habilidades">Habilidades</a>
+                    <a href="#trabajos">Trabajos</a>
+                    <a href="#contacto">Contacto</a>
+                </nav>
+                <!--Icono del menu responsive-->
+                <div id="icono-nav" onclick="responsiveMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+                <div class="redes">
+                    <a href="https://www.instagram.com/_albertoej_/?hl=es-la">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </header>
+
+            <div class="fila">
+                <div class="col">
+                    <h2>Junior Frontend Developer</h2>  
+                    <p>
+                     Hola, Soy Alberto Encarnación Jerez. 
+                    </p>
+                    <a href="CV/Curriculum Alberto Encarnacion Jerez...pdf"><button class="btn btn-1">Descargar CV</button> </a>          
+                </div>
+                <div class="col">
+                    <div class="contenedor-img">
+                        <img src="imagenes/ramirezpng.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </span>
+    
+    <!-- seccion servicios-->
+    <section id="servicios" class="servicios">
+        <div class="filas">
+            <div class="col">
+                <div class="card">
+                    <div class="icono color1">
+                        <div class="circulo">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                    </div>
+                    <h3>Diseño Web</h3>
+                    <p>Camino a volverme un experto en el diseño de páginas web, con un enfoque en el minimalismo y lo funcional.</p>
+
+                     <a href="#">Leer Más</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icono color2">
+                        <div class="circulo">
+                            <i class="fa-brands fa-js"></i>
+                        </div>
+                    </div>
+                    <h3>Desarrollo Web</h3>
+                    <p>Ganas de unirme a un equipo para desarrollar en conjunto, y explorar las últimas tendencias en el desarrollo web.</p>
+
+                     <a href="#">Leer Más</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icono color3">
+                        <div class="circulo">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                    </div>
+                    <h3>Soporte Tecnico</h3>
+                    <p>
+                        brindar soporte técnico básico a los usuarios finales, ayudándolos con problemas comunes como restablecer contraseñas o solucionar problemas de navegación.</p>
+
+                     <a href="#">Leer Más</a>
+                </div>
+            </div>
+        </div>
+        <div class="filas">
+            <div class="col">
+                <div class="card">
+                    <div class="icono color4">
+                        <div class="circulo">
+                            <i class="fa-solid fa-car-side"></i>
+                        </div>
+                    </div>
+                    <h3>Carros</h3>
+                    <p>
+                     Me gustan mucho los carros, soy fan.</p>
+
+                     <a href="#">Leer Más</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icono color5">
+                        <div class="circulo">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                    </div>
+                    <h3>Linkedin</h3>
+                    <p>
+                     Deberia enfocarme mas en preparar mi perfil de Linkedin.</p>
+
+                     <a href="#">Leer Más</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icono color6">
+                        <div class="circulo">
+                            <i class="fa-solid fa-gamepad"></i>
+                        </div>
+                    </div>
+                    <h3>Video Juegos</h3>
+                    <p>
+                     UFFF pero que buen juego el Resident Evil 4 Remake, definitivamente gaming. &#128684;</p>
+
+                     <a href="#">Leer Más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!---seccion habilidades--->
+    <section class="habilidades" id="habilidades">
+        <div class="contenedor-habi">
+            <h2>Habilidades</h2>
+            <br>
+            <br>
+            <div class="fila">
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="50">
+                                50%
+                            </div>
+                            <h2>HTML & CSS</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="30">
+                                30%
+                            </div>
+                            <h2>JAVASCRIPT</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="10">
+                                10%
+                            </div>
+                            <h2> SQL SERVER</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--seccion trabajos-->
+    <section class="trabajos" id="trabajos"> 
+        <h2>Mis Trabajos</h2>
+
+        <nav>
+            <a href="javascript:void(0)" class="borde" id="item" onclick="verCategoria('item')">Todos</a>
+            <a href="javascript:void(0)" class="" id="disenio" onclick="verCategoria('disenio')">Diseños</a>
+            <a href="javascript:void(0)" class="" id="digitador" onclick="verCategoria('digitador')">Digitador</a>
+        </nav>
+
+        <div class="galeria">
+            <div class="item disenio">
+                <img src="imagenes/diseñounion3.png" alt="">
+                <div class="info">
+                    <h3>Diseño de una aplicación para celulares sobre farándula.</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item disenio">
+                <img src="imagenes/diseño2union2.png" alt="">
+                <div class="info">
+                    <h3>Diseño de una aplicación para celulares para los estudiantes de la universidad O&M.</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item digitador">
+                <img src="imagenes/dkolor.jpg" alt="">
+                <div class="info">
+                    <h3>Trabajo de digitador en Dkolor (Intrant licencias).</h3>
+                    <span>digitador</span>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--seccion contacto-->
+    <section class="contacto" id="contacto">   
+        <div class="contenedor-contacto">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <div class="col">
+                    <div class="info">
+                        <h3>Email:</h3>
+                        <p>encarnacionalberto99@gmail.com</p>
+                    </div>
+                    <div class="info">
+                        <h3>Teléfono:</h3>
+                        <p>+1 849-912-2073</p>
+                    </div>
+                    <div class="info">
+                        <h3>País</h3>
+                        <p>Republica Dominicana</p>
+                    </div>
+                    <div class="info">
+                        <h3>Ciudad:</h3>
+                        <p>Santo Domingo</p>
+                    </div>
+                    <div class="col">
+                        <input type="text" placeholder="Nombre...">
+                        <input type="text" placeholder="Correo...">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <input type="submit" value="Enviar" class="btn">   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Creado por Alberto Encarnación Jerez - 2023</p>
+
+        <a href="mailto:encarnacionalberto99@gmail.com">Envíame un correo</a>
+        <a href="https://api.whatsapp.com/send?phone=8499122073&text=Hola Alberto, vimos tu portafolio y queremos contratarte :D">Envíar mensaje por Whatsapp</a>
+
+
+    </footer>
+
+
+    <script src="scripts.JS"></script>
+</body>
+</html>
